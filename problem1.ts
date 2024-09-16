@@ -9,7 +9,7 @@ export function partFunc(
   fn: (array: Array<number>) => number,
   ...argsInput: number[]
 ) {
-  // console.log(argsInput);
+  console.log(argsInput);
   if (argsInput.length !== 0) {
     return (...argsInside: number[]): number => {
       return fn(argsInput.concat(...argsInside));
