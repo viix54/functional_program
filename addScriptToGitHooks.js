@@ -1,4 +1,4 @@
-import { fs } from 'fs';
+import * as fs from 'node:fs';
 
 const args = process.argv.slice(2);
 
