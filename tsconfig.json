@@ -1,0 +1,8 @@
+{ // if Error -> Ctrl + Shift + p -> Restart TS Server
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
+}
+
