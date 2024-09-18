@@ -12,7 +12,7 @@ export function unfoldCB(currState: Array<number>) {
 
 export function unfold(
   callback: (currState: Array<number>) => false | [number, Array<number>],
-  initialValue: number | Array<number>
+  initialValue: number | Array<number> = 0
 ) {
   const result =
     typeof initialValue === 'number'
