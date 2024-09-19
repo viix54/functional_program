@@ -8,5 +8,3 @@ export function averageEvenEl(arr: Array<number>) {
   }
   return 0;
 }
-
-// console.log(averageEvenEl([1,2,3,4,0]))
