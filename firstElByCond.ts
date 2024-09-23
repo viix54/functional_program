@@ -10,5 +10,3 @@ export function findFirstElByCond(
   }
   return findFirstElByCond(arr.slice(1), cond);
 }
-
-console.log(findFirstElByCond([1, 1, 1, 2, 3], (el) => el > 2));
